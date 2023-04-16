@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lora:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+  background-color: #ffe8cf;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #ffe8cf;
+}
+
+.logo a{
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  font-size: 1.1rem;
+}
+
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.461), rgba(0, 0, 0, 0.429)), url(https://www.10wallpaper.com/wallpaper/1366x768/1607/Tent_camping_mountains_sunset-High_Quality_HD_Wallpaper_1366x768.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0 1.5rem;
+  row-gap: 2rem;
+  flex-direction: column;
+  padding: 5rem 2rem;
+}
+
+.home__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home h1 {
+  font-size: 2.3rem;
+  margin: 1rem 0;
+}
+
+.home p {
+  margin: 1rem 0;
+}
+
+.home__btn {
+  margin: 5rem 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #ff9d25;
+  color: white;
+  padding: 0.8rem 0;
+  border-radius: .4rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.home .copyright {
+  color: rgb(203, 203, 203);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+.about {
+  padding: 4rem;
+}
+
+.about__content {
+  width: 70%;
+  margin: auto;
+}
+
+.about__img {
+  width: 100%;
+  height: 18rem;
+  margin: auto;
+}
+
+.about__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about__data h1 {
+  font-size: 2.3rem;
+  margin: 1.2rem 0;
+}
+
+.about__data p {
+  margin: 0.8rem 0;
+}
+
+.about__box {
+  background-color: #ffcb8d;
+  padding: 2rem;
+  border-radius: .8rem;
+  margin: 1.5rem 0;
+}
+
+.about__box p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.about__btn {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: .8rem 1.2rem;
+  font-size: 1.1rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  text-decoration: none;
+}
